@@ -93,45 +93,110 @@ Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene
 pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
 pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
-## `absoluto`
+## `absoluto(unNumero)`
+
+> Versión simplificada de [`Math.abs`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/abs)
+
+Calcula el valor absoluto de `unNumero`, es decir, le "saca" el signo:
+
+```javascript
+ム absoluto(10)
+10
+
+ム absoluto(-10)
+10
+```
+
+## `comienzaCon(unString, otroString)`
+
+Dice si `unString` empieza con `otroString`:
+
+```javascript
+ム comienzaCon("aprendiendo a programar", "aprendiendo")
+true
+
+ム comienzaCon("aprendiendo a programar", "aprend")
+true
+
+ム comienzaCon("aprendiendo a programar", "programar")
+false
+
+ム comienzaCon("aprendiendo a programar", "tomar el té")
+false
+```
+
+## `convertirEnMayuscula(unString)`
+
+> Versión simplificada de [`toUpperCase`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase)
+
+Convierte un `unString` en mayúsculas:
+
+```javascript
+convertirEnMayuscula(x)
+```
+
+
+## `longitud(unStringOUnaLista)`
+
+> Versión simplificada de
+>  * [`length` de strings](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
+>  * [`length` de listas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length)
+
+Uso:
+
+```javascript
+longitud(lista)
+```
+
+
+## `imprimir(unString)`
 
 > Versión simplificada de []()
 
 Uso:
 
 ```javascript
-absoluto(unNumero)
+imprimir(s)
 ```
 
-Ejemplo:
-
-```javascript
-ム absoluto(unNumero)
-
-```
-
-## `agregar`
+## `posicion(unaLista, unElemento)`
 
 > Versión simplificada de []()
 
 Uso:
 
 ```javascript
-agregar(unaLista, unElemento)
+posicion(lista, elemento)
 ```
 
-Ejemplo:
+## `remover`
+
+> Versión simplificada de []()
+
+Uso:
 
 ```javascript
-ム agregar(unaLista, unElemento)
+remover(lista)
+```
 
+
+## `agregar(unaLista, unElemento)`
+
+> Versión simplificada de [`push`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push)
+
+Agrega `unElemento` a una `unaLista`:
+
+```javascript
+ム let cancionesFavoritas = ["La colina de la vida", "Zamba por vos"]
+// agrega el elemento "Seminare" a la lista  cancionesFavoritas
+ム agregar(cancionesFavoritas, "Seminare")
+// ahora la lista tiene un elemento más:
+ム cancionesFavoritas
+["La colina de la vida", "Zamba por vos", "Seminare"]
 ```
 
 ## `anio`
 
-> Versión simplificada de []()
-
-Uso:
 
 ```javascript
 anio(unStringFecha)
@@ -162,84 +227,6 @@ Ejemplo:
 
 ```
 
-## `arraysIguales`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-arraysIguales(unaLista, otraLista)
-```
-
-Ejemplo:
-
-```javascript
-ム arraysIguales(unaLista, otraLista)
-
-```
-
-
-## `comienzaCon`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-comienzaCon(unString, otroString)
-```
-
-Ejemplo:
-
-```javascript
-ム comienzaCon(unString, otroString)
-
-```
-
-
-
-
-
-## `convertirEmMayuscula`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-convertirEmMayuscula(x)
-```
-
-## `esMultiploDe`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-esMultiploDe(unNumero, esteOtro)
-```
-
-## `imprimir`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-imprimir(s)
-```
-
-## `longitud`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-longitud(lista)
-```
 
 ## `minimo`
 
@@ -261,37 +248,6 @@ Uso:
 maximo(numeros)
 ```
 
-
-## `poner`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-poner(a, e) / insert
-```
-
-
-## `posicion`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-posicion(lista, elemento)
-```
-
-## `remover`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-remover(lista)
-```
 
 ## `productoria`
 
