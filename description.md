@@ -93,21 +93,10 @@ Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene
 pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
 pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
-## `absoluto(unNumero)`
-
-> Versión simplificada de [`Math.abs`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/abs)
-
-Calcula el valor absoluto de `unNumero`, es decir, le "saca" el signo:
-
-```javascript
-ム absoluto(10)
-10
-
-ム absoluto(-10)
-10
-```
 
 ## `comienzaCon(unString, otroString)`
+
+> A partir de la [Lección 1: Funciones y tipos de datos](
 
 Dice si `unString` empieza con `otroString`:
 
@@ -127,25 +116,29 @@ false
 
 ## `convertirEnMayuscula(unString)`
 
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+>
 > Versión simplificada de [`toUpperCase`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase)
 
 Convierte un `unString` en mayúsculas:
 
 ```javascript
-convertirEnMayuscula(x)
+ム convertirEnMayuscula("hola")
+"HOLA"
 ```
 
 
-## `longitud(unStringOUnaLista)`
+## `longitud(unString)`
 
-> Versión simplificada de
->  * [`length` de strings](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
->  * [`length` de listas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length)
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+>
+> Versión simplificada de [`length`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
 
 Uso:
 
 ```javascript
-longitud(lista)
+ム longitud("hola")
+4
 ```
 
 
@@ -158,6 +151,11 @@ Uso:
 ```javascript
 imprimir(s)
 ```
+
+## `longitud(unaLista)`
+
+>  * [`length` de listas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length)
+
 
 ## `posicion(unaLista, unElemento)`
 
