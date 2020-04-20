@@ -131,3 +131,172 @@ Ejemplo:
 ム comienzaCon(unString, otroString)
 
 ```
+
+
+
+
+
+## `convertirEmMayuscula`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+convertirEmMayuscula(x)
+```
+
+## `esMultiploDe`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+esMultiploDe(unNumero, esteOtro)
+```
+
+## `imprimir`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+imprimir(s)
+```
+
+## `longitud`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+longitud(lista)
+```
+
+## `minimo`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+minimo(numeros)
+```
+
+## `maximo`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+maximo(numeros)
+```
+
+
+## `poner`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+poner(a, e) / insert
+```
+
+
+## `posicion`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+posicion(lista, elemento)
+```
+
+## `remover`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+remover(lista)
+```
+
+## `productoria`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+productoria(array)
+```
+
+## `promedio`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+promedio(listaDeNumeros)
+```
+
+## `rango`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+rango(s, e)
+```
+
+
+## `siguiente`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+siguiente(x)
+```
+
+## `sumatoria`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+sumatoria(array)
+```
+
+## `anterior`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+anterior(x)
+```
+
+
+## `tirarDado`
+
+> Versión simplificada de []()
+
+Uso: 
+
+```javascript
+tirarDado()
+```
+
