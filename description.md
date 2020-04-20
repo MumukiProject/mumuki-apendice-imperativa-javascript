@@ -4,9 +4,9 @@ El lenguaje JavaScript es utilizado ampliamente para construir software en todo 
 
 ## Declaración de Funciones
 
-> A partir de la lección 1
+> A partir de la [Lección 1: Funciones y tipos de datos]()
 
-Las funciones en JavaScript se declaran mediante la _palabra clave_ `function`, y su cuerpo va entre llaves `{` y `}`: 
+Las funciones en JavaScript se declaran mediante la _palabra clave_ `function`, y su cuerpo va entre llaves `{` y `}`:
 
 ```javascript
 function nombreDeLaFuncion(parametro1, parametro2, parametro3) {
@@ -14,25 +14,90 @@ function nombreDeLaFuncion(parametro1, parametro2, parametro3) {
 }
 ```
 
-Toda función debe tener al menos un retorno, que se expresa mediante `return`. 
+Toda función debe tener al menos un retorno, que se expresa mediante `return`.
+
+## Operadores matemáticos
+
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+
+```javascript
+4 + 5
+10 - 5
+8 * 9
+10 / 5
+```
+
+## Operadores lógicos
+
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+
+```javascript
+true && false
+true || false
+! false
+```
+
+## Comparaciones
+
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+
+```javascript
+// para cualquier tipo de dato
+"hola" === "hola"
+"hola" !== "chau"
+
+// para números
+4 >= 5
+4 > 5
+4 <= 5
+4 < 5
+```
+
 
 ## Variables
 
+> A partir de la [Lección 2: Variables y procedimientos]()
+
+Las variables nos permiten _recordar_ valores y se declaran mediante la palabra reservada `let` y se les da un valor inicial usando `=`:
+
+```javascript
+let pesosEnMiBilletera = 100;
+let diasQueFaltanParaElVerano = 10;
+```
+
+La mismas se asignan mediante `=`:
+
+```javascript
+pesosEnMiBilletera = 65;
+diasQueFaltanParaElVerano = 7;
+```
+
+En ocasiones las asignaremos usando el valor anterior:
+
+```javascript
+pesosEnMiBilletera = pesosEnMiBilletera * 2;
+diasQueFaltanParaElVerano = diasQueFaltanParaElVerano - 1;
+```
+
+La asignación anterior se puede compactar combinando el signo `=` y la operación:
+
+```javascript
+pesosEnMiBilletera *= 2;
+diasQueFaltanParaElVerano -= 1;
+```
 
 
+# Biblioteca simplificada
 
-
-# Biblioteca simplificada 
-
-Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene con JavaScript, 
-pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se 
-pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda. 
+Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene con JavaScript,
+pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
+pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
 ## `absoluto`
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 absoluto(unNumero)
@@ -49,7 +114,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 agregar(unaLista, unElemento)
@@ -66,7 +131,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 anio(unStringFecha)
@@ -84,7 +149,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 listasIguales(unaLista, otraLista)
@@ -101,7 +166,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 arraysIguales(unaLista, otraLista)
@@ -119,7 +184,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 comienzaCon(unString, otroString)
@@ -140,7 +205,7 @@ Ejemplo:
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 convertirEmMayuscula(x)
@@ -150,7 +215,7 @@ convertirEmMayuscula(x)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 esMultiploDe(unNumero, esteOtro)
@@ -160,7 +225,7 @@ esMultiploDe(unNumero, esteOtro)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 imprimir(s)
@@ -170,7 +235,7 @@ imprimir(s)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 longitud(lista)
@@ -180,7 +245,7 @@ longitud(lista)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 minimo(numeros)
@@ -190,7 +255,7 @@ minimo(numeros)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 maximo(numeros)
@@ -201,7 +266,7 @@ maximo(numeros)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 poner(a, e) / insert
@@ -212,7 +277,7 @@ poner(a, e) / insert
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 posicion(lista, elemento)
@@ -222,7 +287,7 @@ posicion(lista, elemento)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 remover(lista)
@@ -232,7 +297,7 @@ remover(lista)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 productoria(array)
@@ -242,7 +307,7 @@ productoria(array)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 promedio(listaDeNumeros)
@@ -252,7 +317,7 @@ promedio(listaDeNumeros)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 rango(s, e)
@@ -263,7 +328,7 @@ rango(s, e)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 siguiente(x)
@@ -273,7 +338,7 @@ siguiente(x)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 sumatoria(array)
@@ -283,7 +348,7 @@ sumatoria(array)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 anterior(x)
@@ -294,7 +359,7 @@ anterior(x)
 
 > Versión simplificada de []()
 
-Uso: 
+Uso:
 
 ```javascript
 tirarDado()
