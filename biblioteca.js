@@ -1,10 +1,10 @@
-/*<hidden-for-student#*/
+/*<hidden-for-student@*/
 // Ver https://github.com/MumukiProject/mumuki-apendice-imperativa-javascript/blob/master/biblioteca.js
 
 // =============
 // Lección 1 y 2
 // =============
-/*#hidden-for-student>*/
+/*@hidden-for-student>*/
 
 // Nos dice cuan largo es un string
 //
@@ -12,9 +12,9 @@
 //
 //  ム longitud("hola")
 //  4
-function longitud(unString) /*<elipsis-for-student#*/ {
+function longitud(unString) /*<elipsis-for-student@*/ {
   return unString.length;
-} /*#elipsis-for-student>*/
+} /*@elipsis-for-student>*/
 
 // Convierte una palabra en mayúsculas
 //
@@ -22,9 +22,9 @@ function longitud(unString) /*<elipsis-for-student#*/ {
 //
 //  ム convertirEnMayuscula("hola")
 //  "HOLA"
-function convertirEnMayuscula(unString) /*<elipsis-for-student#*/ {
+function convertirEnMayuscula(unString) /*<elipsis-for-student@*/ {
   return unString.toUpperCase()
-} /*#elipsis-for-student>*/
+} /*@elipsis-for-student>*/
 
 // Nos dice si unString empieza con otroString
 //
@@ -32,17 +32,17 @@ function convertirEnMayuscula(unString) /*<elipsis-for-student#*/ {
 //
 //  ム comienzaCon("hola todo el mundo", "hola todo")
 //  true
-function comienzaCon(unString, otroString) /*<elipsis-for-student#*/ {
+function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
   return unString.startsWith(otroString);
-} /*#elipsis-for-student>*/
+} /*@elipsis-for-student>*/
 
-/*<hidden-for-student#*/
+/*<hidden-for-student@*/
 // =========
 // Lección 3
 // =========
-/*#hidden-for-student>*/
+/*@hidden-for-student>*/
 
-/*<hidden-for-student#*/
+/*<hidden-for-student@*/
 var fakeConsole = {
   lines: [],
   log: function(line) {
@@ -53,7 +53,7 @@ var fakeConsole = {
     return String.prototype.concat.apply([], this.lines);
   }
 };
-/*#hidden-for-student>*/
+/*@hidden-for-student>*/
 
 // Imprime por pantalla unString
 //
@@ -61,9 +61,9 @@ var fakeConsole = {
 //
 //  ム imprimir("¡estoy imprimiendo!")
 //  true
-function imprimir(unString) /*<elipsis-for-student#*/ {
+function imprimir(unString) /*<elipsis-for-student@*/ {
   fakeConsole.log(unString)
-} /*#elipsis-for-student>*/
+} /*@elipsis-for-student>*/
 
 // Devuelve al azar un número entre 1 y 6
 //
@@ -75,8 +75,8 @@ function imprimir(unString) /*<elipsis-for-student#*/ {
 //  1
 //  ム tirarDado()
 //  2
-function tirarDado() /*<elipsis-for-student#*/ {
+function tirarDado() /*<elipsis-for-student@*/ {
   return Math.floor(Math.random() * 6) + 1
-} /*#elipsis-for-student>*/
+} /*@elipsis-for-student>*/
 
 
