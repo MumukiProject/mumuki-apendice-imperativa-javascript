@@ -1,4 +1,6 @@
 /*<hidden-for-student#*/
+// Ver https://github.com/MumukiProject/mumuki-apendice-imperativa-javascript/blob/master/biblioteca.js
+
 // =============
 // Lección 1 y 2
 // =============
@@ -40,17 +42,6 @@ function comienzaCon(unString, otroString) /*<elipsis-for-student#*/ {
 // =========
 /*#hidden-for-student>*/
 
-
-// Imprime por pantalla unString
-//
-// Por ejemplo:
-//
-//  ム imprimir("¡estoy imprimiendo!")
-//  true
-function imprimir(unString) /*<elipsis-for-student#*/ {
-  fakeConsole.log(unString)
-} /*#elipsis-for-student>*/
-
 /*<hidden-for-student#*/
 var fakeConsole = {
   lines: [],
@@ -64,15 +55,25 @@ var fakeConsole = {
 };
 /*#hidden-for-student>*/
 
+// Imprime por pantalla unString
+//
+// Por ejemplo:
+//
+//  ム imprimir("¡estoy imprimiendo!")
+//  true
+function imprimir(unString) /*<elipsis-for-student#*/ {
+  fakeConsole.log(unString)
+} /*#elipsis-for-student>*/
+
 // Devuelve al azar un número entre 1 y 6
 //
 // Por ejemplo:
 //
-//  ム tirarDato()
+//  ム tirarDado()
 //  5
-//  ム tirarDato()
+//  ム tirarDado()
 //  1
-//  ム tirarDato()
+//  ム tirarDado()
 //  2
 function tirarDado() /*<elipsis-for-student#*/ {
   return Math.floor(Math.random() * 6) + 1
