@@ -122,6 +122,8 @@ Convierte un `unString` en mayúsculas:
 ## `comienzaCon(unString, otroString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
+>
+> Versión simplificada de [`startsWith`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/startsWith)
 
 Dice si `unString` empieza con `otroString`:
 
@@ -143,7 +145,7 @@ false
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 >
-> Versión simplificada de [`console.log`]()
+> Versión simplificada de [`console.log`](https://developer.mozilla.org/es/docs/Web/API/Console/log)
 
 Imprime por pantalla `unString`:
 
