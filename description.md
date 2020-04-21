@@ -4,7 +4,7 @@ El lenguaje JavaScript es utilizado ampliamente para construir software en todo 
 
 ## Declaración de Funciones
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
 Las funciones en JavaScript se declaran mediante la _palabra clave_ `function`, y su cuerpo va entre llaves `{` y `}`:
 
@@ -18,7 +18,7 @@ Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 
 ## Operadores matemáticos
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
 ```javascript
 4 + 5
@@ -29,7 +29,7 @@ Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 
 ## Operadores lógicos
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
 ```javascript
 true && false
@@ -39,7 +39,7 @@ true || false
 
 ## Comparaciones
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
 ```javascript
 // para cualquier tipo de dato
@@ -56,7 +56,7 @@ true || false
 
 ## Variables
 
-> A partir de la [Lección 2: Variables y procedimientos]()
+> A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 
 Las variables nos permiten _recordar_ valores y se declaran mediante la palabra reservada `let` y se les da un valor inicial usando `=`:
 
@@ -95,7 +95,7 @@ pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
 ## `longitud(unString)`
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 >
 > Versión simplificada de [`length`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
 
@@ -108,7 +108,7 @@ Uso:
 
 ## `convertirEnMayuscula(unString)`
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 >
 > Versión simplificada de [`toUpperCase`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase)
 
@@ -121,7 +121,7 @@ Convierte un `unString` en mayúsculas:
 
 ## `comienzaCon(unString, otroString)`
 
-> A partir de la [Lección 1: Funciones y tipos de datos]()
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
 Dice si `unString` empieza con `otroString`:
 
@@ -141,7 +141,7 @@ false
 
 ## `imprimir(unString)`
 
-> A partir de la [Lección 3: Variables y procedimientos]()
+> A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 >
 > Versión simplificada de [`console.log`]()
 
@@ -154,7 +154,7 @@ Imprime por pantalla `unString`:
 
 ## `tirarDado()`
 
-> A partir de la [Lección 3: Variables y procedimientos]()
+> A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 
 Devuelve al azar un número entre 1 y 6:
 
@@ -169,7 +169,7 @@ Devuelve al azar un número entre 1 y 6:
 
 ## `listasIguales`
 
-> A partir de la [Lección 5: Listas]()
+> A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 
 
 ```javascript
@@ -179,7 +179,7 @@ Devuelve al azar un número entre 1 y 6:
 
 ## `longitud(unaLista)`
 
-> A partir de la [Lección 5: Listas]()
+> A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
 >  * [`length` de listas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length)
 
@@ -195,7 +195,7 @@ Nos dice cuan largo es `unaLista`:
 
 ## `agregar(unaLista, unElemento)`
 
-> A partir de la [Lección 5: Listas]()
+> A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
 > Versión simplificada de [`push`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push)
 
@@ -213,7 +213,7 @@ Este es un procedimiento que no devuelve nada pero modifica a `unaLista`:
 
 ## `remover(unaLista)`
 
-> A partir de la [Lección 5: Listas]()
+> A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
 > Versión simplificada de [`pop`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop)
 
@@ -231,7 +231,8 @@ Este es un procedimiento que no devuelve nada pero modifica a unaLista:
 
 ## `posicion(unaLista, unElemento)`
 
-> A partir de la [Lección 5: Listas]()
+
+> A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
 > Versión simplificada de [`indexOf`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/indexOf)
 

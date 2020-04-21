@@ -1,9 +1,9 @@
 /*<hidden-for-student@*/
 // Ver https://github.com/MumukiProject/mumuki-apendice-imperativa-javascript/blob/master/biblioteca.js
 
-// =============
-// Lección 1 y 2
-// =============
+// =========
+// Lección 1
+// =========
 /*@hidden-for-student>*/
 
 // Nos dice cuan largo es un string
@@ -37,9 +37,9 @@ function comienzaCon(unString, otroString) /*<elipsis-for-student@*/ {
 } /*@elipsis-for-student>*/
 
 /*<hidden-for-student@*/
-// ==============
-// Lección 3 y 4
-// ==============
+// =========
+// Lección 3
+// =========
 /*@hidden-for-student>*/
 
 /*<hidden-for-student@*/
