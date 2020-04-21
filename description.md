@@ -93,10 +93,35 @@ Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene
 pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
 pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
+## `longitud(unString)`
+
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+>
+> Versión simplificada de [`length`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
+
+Uso:
+
+```javascript
+ム longitud("hola")
+4
+```
+
+## `convertirEnMayuscula(unString)`
+
+> A partir de la [Lección 1: Funciones y tipos de datos]()
+>
+> Versión simplificada de [`toUpperCase`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase)
+
+Convierte un `unString` en mayúsculas:
+
+```javascript
+ム convertirEnMayuscula("hola")
+"HOLA"
+```
 
 ## `comienzaCon(unString, otroString)`
 
-> A partir de la [Lección 1: Funciones y tipos de datos](
+> A partir de la [Lección 1: Funciones y tipos de datos]()
 
 Dice si `unString` empieza con `otroString`:
 
@@ -114,75 +139,68 @@ false
 false
 ```
 
-## `convertirEnMayuscula(unString)`
-
-> A partir de la [Lección 1: Funciones y tipos de datos]()
->
-> Versión simplificada de [`toUpperCase`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/toUpperCase)
-
-Convierte un `unString` en mayúsculas:
-
-```javascript
-ム convertirEnMayuscula("hola")
-"HOLA"
-```
-
-
-## `longitud(unString)`
-
-> A partir de la [Lección 1: Funciones y tipos de datos]()
->
-> Versión simplificada de [`length`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/length)
-
-Uso:
-
-```javascript
-ム longitud("hola")
-4
-```
-
-
 ## `imprimir(unString)`
 
-> Versión simplificada de []()
+> A partir de la [Lección 3: Variables y procedimientos]()
+>
+> Versión simplificada de [`console.log`]()
 
-Uso:
+Imprime por pantalla `unString`:
 
 ```javascript
-imprimir(s)
+ム imprimir("¡estoy imprimiendo!")
+¡estoy imprimiendo!
+```
+
+## `tirarDado()`
+
+> A partir de la [Lección 3: Variables y procedimientos]()
+
+Devuelve al azar un número entre 1 y 6:
+
+```javascript
+ム tirarDado()
+5
+ム tirarDado()
+1
+ム tirarDado()
+2
+```
+
+## `listasIguales`
+
+> A partir de la [Lección 5: Listas]()
+
+
+```javascript
+ム listasIguales(unaLista, otraLista)
+
 ```
 
 ## `longitud(unaLista)`
 
+> A partir de la [Lección 5: Listas]()
+>
 >  * [`length` de listas](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/length)
 
-
-## `posicion(unaLista, unElemento)`
-
-> Versión simplificada de []()
-
-Uso:
+Nos dice cuan largo es `unaLista`:
 
 ```javascript
-posicion(lista, elemento)
-```
-
-## `remover`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-remover(lista)
+ム longitud([true, false, false, true])
+4
+ム longitud([5, 6, 3])
+3
 ```
 
 
 ## `agregar(unaLista, unElemento)`
 
+> A partir de la [Lección 5: Listas]()
+>
 > Versión simplificada de [`push`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/push)
 
-Agrega `unElemento` a una `unaLista`:
+Inserta `unElemento` al final de `unaLista`.
+Este es un procedimiento que no devuelve nada pero modifica a `unaLista`:
 
 ```javascript
 ム let cancionesFavoritas = ["La colina de la vida", "Zamba por vos"]
@@ -193,129 +211,39 @@ Agrega `unElemento` a una `unaLista`:
 ["La colina de la vida", "Zamba por vos", "Seminare"]
 ```
 
-## `anio`
+## `remover(unaLista)`
 
+> A partir de la [Lección 5: Listas]()
+>
+> Versión simplificada de [`pop`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/pop)
 
-```javascript
-anio(unStringFecha)
-```
-
-Ejemplo:
-
-```javascript
-ム anio(unStringFecha)
-
-```
-
-
-## `listasIguales`
-
-> Versión simplificada de []()
-
-Uso:
+Quita el último elemento de unaLista.
+Este es un procedimiento que no devuelve nada pero modifica a unaLista:
 
 ```javascript
-listasIguales(unaLista, otraLista)
+ム let listaDeCompras = ["leche", "pan", "arroz", "aceite", "yerba"]
+// removemos el último elemento
+ム remove(listaDeCompras)
+// la "yerba" ya no está en lista de compras
+ム listaDeCompras
+["leche", "pan", "arroz", "aceite"]
 ```
 
-Ejemplo:
+## `posicion(unaLista, unElemento)`
+
+> A partir de la [Lección 5: Listas]()
+>
+> Versión simplificada de [`indexOf`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/indexOf)
+
+Nos dice en qué posición se encuentra `unElemento` dentro de `unaLista`.
+Si el elemento no está en la lista, devuelve `-1`
 
 ```javascript
-ム listasIguales(unaLista, otraLista)
-
+ム let premios = ["dani", "agus", "juli", "fran"]
+ム posicion(premios, "dani")
+0
+ム posicion(premios, "juli")
+2
+ム posicion(premios, "feli")
+-1
 ```
-
-
-## `minimo`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-minimo(numeros)
-```
-
-## `maximo`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-maximo(numeros)
-```
-
-
-## `productoria`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-productoria(array)
-```
-
-## `promedio`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-promedio(listaDeNumeros)
-```
-
-## `rango`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-rango(s, e)
-```
-
-
-## `siguiente`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-siguiente(x)
-```
-
-## `sumatoria`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-sumatoria(array)
-```
-
-## `anterior`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-anterior(x)
-```
-
-
-## `tirarDado`
-
-> Versión simplificada de []()
-
-Uso:
-
-```javascript
-tirarDado()
-```
-
