@@ -1,8 +1,8 @@
-# Referencia rápida del lenguaje JavaScript
+## Referencia rápida del lenguaje JavaScript
 
 El lenguaje JavaScript es utilizado ampliamente para construir software en todo el mundo, siento una de las principales tecnologías de la Web. En Mumuki sólo usamos una muy pequeña parte del mismo, que listamos a continuación:
 
-## Declaración de Funciones
+### Declaración de Funciones
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -16,7 +16,7 @@ function nombreDeLaFuncion(parametro1, parametro2, parametro3) {
 
 Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 
-## Operadores matemáticos
+### Operadores matemáticos
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -27,7 +27,7 @@ Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 10 / 5
 ```
 
-## Operadores lógicos
+### Operadores lógicos
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -37,7 +37,7 @@ true || false
 ! false
 ```
 
-## Comparaciones
+### Comparaciones
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -87,13 +87,13 @@ diasQueFaltanParaElVerano -= 1;
 ```
 
 
-# Biblioteca simplificada
+## Biblioteca simplificada
 
 Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene con JavaScript,
 pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
 pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
-## `longitud(unString)`
+### `longitud(unString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 >
@@ -106,7 +106,7 @@ Uso:
 4
 ```
 
-## `convertirEnMayuscula(unString)`
+### `convertirEnMayuscula(unString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 >
@@ -119,7 +119,7 @@ Convierte un `unString` en mayúsculas:
 "HOLA"
 ```
 
-## `comienzaCon(unString, otroString)`
+### `comienzaCon(unString, otroString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 >
@@ -141,7 +141,7 @@ false
 false
 ```
 
-## `imprimir(unString)`
+### `imprimir(unString)`
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 >
@@ -154,7 +154,7 @@ Imprime por pantalla `unString`:
 ¡estoy imprimiendo!
 ```
 
-## `tirarDado()`
+### `tirarDado()`
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 
@@ -169,7 +169,7 @@ Devuelve al azar un número entre 1 y 6:
 2
 ```
 
-## `listasIguales`
+### `listasIguales`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 
@@ -179,7 +179,7 @@ Devuelve al azar un número entre 1 y 6:
 
 ```
 
-## `longitud(unaLista)`
+### `longitud(unaLista)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
@@ -195,7 +195,7 @@ Nos dice cuan largo es `unaLista`:
 ```
 
 
-## `agregar(unaLista, unElemento)`
+### `agregar(unaLista, unElemento)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
@@ -213,7 +213,7 @@ Este es un procedimiento que no devuelve nada pero modifica a `unaLista`:
 ["La colina de la vida", "Zamba por vos", "Seminare"]
 ```
 
-## `remover(unaLista)`
+### `remover(unaLista)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
@@ -231,7 +231,7 @@ Este es un procedimiento que no devuelve nada pero modifica a unaLista:
 ["leche", "pan", "arroz", "aceite"]
 ```
 
-## `posicion(unaLista, unElemento)`
+### `posicion(unaLista, unElemento)`
 
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
