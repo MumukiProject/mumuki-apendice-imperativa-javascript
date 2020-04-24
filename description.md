@@ -54,7 +54,42 @@ true || false
 ```
 
 
-## Variables
+### Alternativas condicionales
+
+> A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
+
+Los `if`s en JavaScript encierran la condición entre paréntesis y su cuerpo entre llaves:
+
+```javascript
+if (hayPersonasEnEspera()) {
+  llamarSiguientePersona();
+}
+```
+
+Además, los `if`s pueden opcionalmente tener un `else`:
+
+```javascript
+if (hayPersonasEnEspera()) {
+  llamarSiguientePersona();
+} else {
+  esperarSiguientePersona();
+}
+```
+
+Por último, podemos combinar varios `if`s para tomar decisiones ante múltiples condiciones:
+
+```javascript
+if (hayPersonasEnEspera()) {
+  llamarSiguientePersona();
+} else if (elPuestoDebeSeguirAbierto()) {
+  esperarSiguientePersona();
+} else {
+  cerrarPuesto();
+}
+```
+
+
+### Variables
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 
