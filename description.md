@@ -54,7 +54,7 @@ true || false
 ```
 
 
-### Alternativas condicionales
+### Alternativa Condicional
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -119,6 +119,31 @@ La asignación anterior se puede compactar combinando el signo `=` y la operaci�
 ```javascript
 pesosEnMiBilletera *= 2;
 diasQueFaltanParaElVerano -= 1;
+```
+
+### Repetición indexada
+
+> A partir de la [Lección 7: Recorridos](../../guides/mumukiproject/mumuki-guia-javascript-practica-de-listas-y-registros)
+
+Las listas pueden ser _recorridas_, visitando y haciendo algo con cada uno de sus elementos. Para ello contamos con la estructura de control `for..of`, que encierra su generador
+entre paréntesis (`(` y `)`) y su cuerpo entre llaves (`{` y `}`):
+
+```javascript
+let patrimoniosDeLaHumanidad = [
+  {declarado: 1979, nombre: "Parque nacional Tikal", pais: "Guatemala"},
+  {declarado: 1983, nombre: "Santuario histórico de Machu Picchu", pais: "Perú"}
+  {declarado: 1986, nombre: "Parque nacional do Iguaçu", pais: "Brasil"},
+  {declarado: 1995, nombre: "Parque nacional de Rapa Nui", pais: "Chile"},
+  {declarado: 2003, nombre: "Quebrada de Humahuaca", pais: "Argentina"}
+]
+
+
+let cantidadPatrimoniosDeclaradosEnEsteSiglo = 0;
+for (let patrimonio of patrimoniosDeLaHumanidad) {
+  if (patrimonio.declarado >= 2000) {
+    cantidadPatrimoniosDeclaradosEnEsteSiglo += 1;
+  }
+}
 ```
 
 
