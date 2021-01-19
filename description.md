@@ -1,6 +1,6 @@
 ## Referencia rápida del lenguaje JavaScript
 
-El lenguaje JavaScript es utilizado ampliamente para construir software en todo el mundo, siento una de las principales tecnologías de la Web. En Mumuki sólo usamos una muy pequeña parte del mismo, que listamos a continuación:
+El lenguaje JavaScript es utilizado ampliamente para construir software en todo el mundo, siendo una de las principales tecnologías de la Web. En Mumuki sólo usamos una muy pequeña parte del mismo, que listamos a continuación:
 
 ### Declaración de Funciones
 
