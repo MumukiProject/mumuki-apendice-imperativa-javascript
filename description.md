@@ -1,8 +1,39 @@
-## Referencia rápida del lenguaje JavaScript
+<ul>
+
+<li><a title="" href="#referencia-rapida-del-lenguaje-javascript">Referencia rápida del lenguaje JavaScript</a>
+<ul>
+<li><a title="" href="#declaracion-de-funciones">Declaración de Funciones</a></li>
+<li><a title="" href="#operadores-matematicos">Operadores matemáticos</a></li>
+<li><a title="" href="#operadores-logicos">Operadores lógicos</a></li>
+<li><a title="" href="#comparaciones">Comparaciones</a></li>
+<li><a title="" href="#alternativa-condicional">Alternativa Condicional</a></li>
+<li><a title="" href="#variables">Variables</a></li>
+<li><a title="" href="#repeticion-indexada">Repetición indexada</a></li>
+</ul>
+</li>
+
+<li><a title="" href="#biblioteca-simplificada">Biblioteca simplificada</a>
+<ul>
+<li><a title="" href="#longitudunstring"><code>longitud(unString)</code></a></li>
+<li><a title="" href="#convertirenmayusculaunstring"><code>convertirEnMayuscula(unString)</code></a></li>
+<li><a title="" href="#comienzaconunstring-otrostring"><code>comienzaCon(unString, otroString)</code></a></li>
+<li><a title="" href="#imprimirunstring"><code>imprimir(unString)</code></a></li>
+<li><a title="" href="#tirardado"><code>tirarDado()</code></a></li>
+<li><a title="" href="#listasiguales"><code>listasIguales</code></a></li>
+<li><a title="" href="#longitudunalista"><code>longitud(unaLista)</code></a></li>
+<li><a title="" href="#agregarunalista-unelemento"><code>agregar(unaLista, unElemento)</code></a></li>
+<li><a title="" href="#removerunalista"><code>remover(unaLista)</code></a></li>
+<li><a title="" href="#posicionunalista-unelemento"><code>posicion(unaLista, unElemento)</code></a></li>
+</ul>
+</li>
+
+</ul>
+
+<h2 id="referencia-rapida-del-lenguaje-javascript"> Referencia rápida del lenguaje JavaScript</h2>
 
 El lenguaje JavaScript es utilizado ampliamente para construir software en todo el mundo, siendo una de las principales tecnologías de la Web. En Mumuki sólo usamos una muy pequeña parte del mismo, que listamos a continuación:
 
-### Declaración de Funciones
+<h3 id="declaracion-de-funciones">Declaración de Funciones</h3>
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -16,7 +47,7 @@ function nombreDeLaFuncion(parametro1, parametro2, parametro3) {
 
 Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 
-### Operadores matemáticos
+<h3 id="operadores-matematicos">Operadores matemáticos</h3>
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -27,7 +58,7 @@ Toda función debe tener al menos un retorno, que se expresa mediante `return`.
 10 / 5
 ```
 
-### Operadores lógicos
+<h3 id="operadores-logicos">Operadores lógicos</h3>
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -37,7 +68,7 @@ true || false
 ! false
 ```
 
-### Comparaciones
+<h3 id="comparaciones">Comparaciones</h3>
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -54,7 +85,7 @@ true || false
 ```
 
 
-### Alternativa Condicional
+<h3 id="alternativa-condicional">Alternativa Condicional</h3>
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
 
@@ -89,7 +120,7 @@ if (hayPersonasEnEspera()) {
 ```
 
 
-### Variables
+<h3 id="variables">Variables</h3>
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
 
@@ -121,7 +152,7 @@ pesosEnMiBilletera *= 2;
 diasQueFaltanParaElVerano -= 1;
 ```
 
-### Repetición indexada
+<h3 id="repeticion-indexada">Repetición indexada</h3>
 
 > A partir de la [Lección 7: Recorridos](../../guides/mumukiproject/mumuki-guia-javascript-practica-de-listas-y-registros)
 
@@ -147,12 +178,13 @@ for (let patrimonio of patrimoniosDeLaHumanidad) {
 ```
 
 
-## Biblioteca simplificada
+<h2 id="biblioteca-simplificada"> Biblioteca simplificada</h2>
 
 Dentro de Mumuki usamos una biblioteca de funciones inspirada en la que ya viene con JavaScript,
 pero simplifiacada para que sea más sencilla y segura de usar. A continuación listamos las principales funciones que se
 pueden usar, indicando el equivalente _real_ en JavaScript cuando corresponda.
 
+<a id="longitudunstring"></a>
 ### `longitud(unString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
@@ -166,6 +198,7 @@ Uso:
 4
 ```
 
+<a id="convertirenmayusculaunstring"></a>
 ### `convertirEnMayuscula(unString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
@@ -179,6 +212,7 @@ Convierte un `unString` en mayúsculas:
 "HOLA"
 ```
 
+<a id="comienzaconunstring-otrostring"></a>
 ### `comienzaCon(unString, otroString)`
 
 > A partir de la [Lección 1: Funciones y tipos de datos](../../guides/flbulgarelli/fundamentos-javascript-funciones-tipos-de-datos)
@@ -201,6 +235,7 @@ false
 false
 ```
 
+<a id="imprimirunstring"></a>
 ### `imprimir(unString)`
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
@@ -214,6 +249,7 @@ Imprime por pantalla `unString`:
 ¡estoy imprimiendo!
 ```
 
+<a id="tirardado"></a>
 ### `tirarDado()`
 
 > A partir de la [Lección 3: Variables y procedimientos](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-variables-y-procedimientos)
@@ -229,6 +265,7 @@ Devuelve al azar un número entre 1 y 6:
 2
 ```
 
+<a id="listasiguales"></a>
 ### `listasIguales`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
@@ -239,6 +276,7 @@ Devuelve al azar un número entre 1 y 6:
 
 ```
 
+<a id="longitudunalista"></a>
 ### `longitud(unaLista)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
@@ -254,7 +292,7 @@ Nos dice cuan largo es `unaLista`:
 3
 ```
 
-
+<a id="agregarunalista-unelemento"></a>
 ### `agregar(unaLista, unElemento)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
@@ -273,6 +311,7 @@ Este es un procedimiento que no devuelve nada pero modifica a `unaLista`:
 ["La colina de la vida", "Zamba por vos", "Seminare"]
 ```
 
+<a id="removerunalista"></a>
 ### `remover(unaLista)`
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
@@ -291,8 +330,8 @@ Este es un procedimiento que no devuelve nada pero modifica a unaLista:
 ["leche", "pan", "arroz", "aceite"]
 ```
 
+<a id="posicionunalista-unelemento"></a>
 ### `posicion(unaLista, unElemento)`
-
 
 > A partir de la [Lección 5: Listas](../../guides/flbulgarelli/mumuki-guia-fundamentos-javascript-vectores)
 >
